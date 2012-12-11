@@ -1,1 +1,8 @@
 4.2 vendor files for Verizon Galaxy Nexus (toro)
+
+USAGE:
+
+1. Start at the top of you aosp tree
+2. cd vendor/
+3. git clone https://github.com/barry-smithjr/android_vendor_samsung_toro.git -b master
+4. Wait
