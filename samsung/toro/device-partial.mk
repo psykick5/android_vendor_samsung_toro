@@ -15,19 +15,36 @@
 # Samsung blob(s) necessary for Toro hardware
 PRODUCT_PACKAGES := \
     BIP \
+    bcm4330 \
     IMSFramework \
     RTN \
     SDM \
     SPG \
     SyncMLSvc \
     fRom \
+    libdrmdecrypt \
+    libinvensense_mpl \
+    libpn544_fw \
     libsecril-client \
     libsyncml_core \
     libsyncml_port \
     lib_gsd4t \
     libims \
     libims_jni \
-    libsec-ril_lte
+    libsec-ril_lte \
+    pvrsrvctl \
+    libEGL_POWERVR_SGX540_120 \
+    libGLESv1_CM_POWERVR_SGX540_120 \
+    libGLESv2_POWERVR_SGX540_120 \
+    gralloc.omap4 \
+    libglslcompiler \
+    libIMGegl \
+    libpvr2d \
+    libpvrANDROID_WSEGL \
+    libPVRScopeServices \
+    libsrv_init \
+    libsrv_um \
+    libusc
 
 # This is Open Source but doesn't get built without
 # the other packages above
